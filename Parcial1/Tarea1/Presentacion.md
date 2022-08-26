@@ -4,15 +4,15 @@
 
 
 
-**Historial Academico**
+**Historial Académico**
 
    *PRIMARIA*
  
- * Colegio Mexico
+ * Colegio México
 
 *SECUNDARIA*
 
-* Colegio Mexico 
+* Colegio México 
 
 *BACHILLERATO*
 
@@ -20,6 +20,10 @@
 
 *PROFESIONAL*
 
-* Tecnologico de Nuevo Laredo
+* Tecnológico de Nuevo Laredo
 
 -----------------------------------------
+
+ **Experiencia laboral**
+
+Actualmente me encuentro laborando en una empresa maquiladora como auxiliar técnico en el área de *EHS (Environment, Health and Safety)* , tengo asignado el proyecto *"Risk Assessment"* que consiste en analizar maquinaria y equipos para evitar incidentes y/o accidentes. 
