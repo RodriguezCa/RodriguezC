@@ -11,15 +11,15 @@
  
  * Colegio Mexico
 
-   *SECUNDARIA*
+*SECUNDARIA*
 
 * Colegio Mexico 
 
-   *BACHILLERATO*
+*BACHILLERATO*
 
 * Universidad TecMilenio
 
-   *PROFESIONAL*
+*PROFESIONAL*
 
 * Tecnologico de Nuevo Laredo
-* 
+
