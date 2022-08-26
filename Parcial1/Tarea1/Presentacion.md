@@ -32,11 +32,8 @@ Actualmente me encuentro laborando en una empresa maquiladora como auxiliar téc
 |**Lenguajes de Programación**|
 ------------
 |*C++*|
----
 |*C#*|
----
 |*Java*|
----
 
  
 
