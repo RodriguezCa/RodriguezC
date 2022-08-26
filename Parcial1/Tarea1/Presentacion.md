@@ -35,6 +35,18 @@ Actualmente me encuentro laborando en una empresa maquiladora como auxiliar téc
 | *C#* |
 | *Java* |
 
+*Me gustaría aprender el lenguaje de Python y HTML.*
+
+ **Mi futuro**
+
+Me pienso especializar en Base de datos en un futuro para así poder implementar sistemas en empresas.
+
+| **Hobbies** |
+| ---------|
+| Fan de la musica (rap, regional mexicana y reggaeton) |
+| Fan de los deportes (Fútbol (Tigres UANL) y Fútbol Americano (Green Bay Packers)) |
+
+
  
 
  
