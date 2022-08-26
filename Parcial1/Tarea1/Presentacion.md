@@ -40,6 +40,7 @@ Actualmente me encuentro laborando en una empresa maquiladora como auxiliar téc
  **Mi futuro**
 
 Me pienso especializar en Base de datos en un futuro para así poder implementar sistemas en empresas.
+-------
 
 | **Hobbies** |
 | ---------|
