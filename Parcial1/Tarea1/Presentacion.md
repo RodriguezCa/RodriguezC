@@ -8,6 +8,9 @@
 **Historial Academico**
 
  
-PRIMARIA       |   SECUNDARIA   |  BACHILLERATO
--------------------------------------------
-Colegio Mexico   Colegio Mexico   Universidad TecMilenio
+   PRIMARIA    |   SECUNDARIA   |  BACHILLERATO  | PROFESIONAL  |       
+-----------------------------------------------------------------
+Colegio Mexico | Colegio Mexico |  Universidad   |Tecnologico de|
+               |                |   TecMilenio   | Nuevo Laredo |
+               |                |                |              |
+               |                |                |              |
