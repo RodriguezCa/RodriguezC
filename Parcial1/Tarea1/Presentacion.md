@@ -4,7 +4,6 @@
 
 
 
-
 **Historial Academico**
 
    *PRIMARIA*
@@ -23,3 +22,4 @@
 
 * Tecnologico de Nuevo Laredo
 
+-----------------------------------------
