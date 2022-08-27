@@ -26,7 +26,7 @@
 
  **Experiencia laboral**
 
-Actualmente me encuentro laborando en una empresa maquiladora como auxiliar técnico en el área de *EHS (Environment, Health and Safety)* , tengo asignado el proyecto *"Risk Assessment"* que consiste en analizar maquinaria y equipos para evitar incidentes y/o accidentes. 
+Actualmente me encuentro laborando en una empresa maquiladora como auxiliar técnico en el área de *EHS (Environment, Health and Safety)* , tengo asignado el proyecto *"Risk Assessment"* que consiste en analizar riesgos en maquinaria y equipos para evitar incidentes y/o accidentes. 
 -----------------------------------------------
 
 | **Lenguajes de Programación** |
