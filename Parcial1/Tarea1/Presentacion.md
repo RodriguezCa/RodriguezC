@@ -35,7 +35,10 @@ Actualmente me encuentro laborando en una empresa maquiladora como auxiliar téc
 | *C#* |
 | *Java* |
 
-*Me gustaría aprender el lenguaje de Python y HTML.*
+*Me gustaría aprender el lenguaje de Python, HTML y aprender más software posibles.*
+
+
+--------
 
  **Mi futuro**
 
