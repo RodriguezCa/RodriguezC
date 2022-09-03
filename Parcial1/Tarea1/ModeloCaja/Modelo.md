@@ -4,33 +4,40 @@ El modelo de caja CSS que define cajas rectangulares, incluyendo sus rellenos y 
 
 ## PROPIEDADES
 
-Propiedades
-Propiedades que controlan el flujo del contenido en una caja.
+## _Propiedades que controlan el flujo del contenido en una caja._
 
 - box-decoration-break (en-US)
 - box-sizing
 - overflow
 - overflow-x (en-US)
 - overflow-y
-  Propiedades que controlan el tamaño de una caja.
+
+## _Propiedades que controlan el tamaño de una caja._
+
 - height
 - width
 - max-height
 - max-width (en-US)
 - min-height
 - min-width
-  Propiedades que controlan los márgenes de una caja.
+
+## _Propiedades que controlan los márgenes de una caja._
+
 - margin
 - margin-bottom
 - margin-left (en-US)
 - margin-right
 - margin-top (en-US)
-  Propiedades que controlan los rellenos de una caja
+
+## _Propiedades que controlan los rellenos de una caja._
+
 - padding
 - padding-bottom
 - padding-left (en-US)
 - padding-right (en-US)
 - padding-top
-  Otras propiedades
+
+## _Otras propiedades._
+
 - box-shadow
 - visibility
