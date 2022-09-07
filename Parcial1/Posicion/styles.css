@@ -1,0 +1,23 @@
+.cajaRelativa {
+  position: relative;
+  width: 500px;
+  height: 200px;
+  border: 5px solid blue;
+}
+.cajaAbsoluta {
+  position: absolute;
+  width: 500px;
+  height: 200px;
+  border: 5px solid red;
+}
+#caja2 {
+  left: 100px;
+}
+.cajaFija {
+  position: fixed;
+  width: 100px;
+  height: 100px;
+  bottom: 0px;
+  right: 10px;
+  border: 5px solid black;
+}
