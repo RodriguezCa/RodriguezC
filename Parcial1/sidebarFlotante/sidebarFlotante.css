@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 120px) {
+  div.sidebar {
+    position: relative;
+    width: 100%;
+    height: auto;
+  }
+
+  .sidebar a (float: left;) a {
+    display: block;
+    text-decoration: none;
+    padding: 5px;
+  }
+  a:hover {
+    background-color: blue;
+    color: white;
+  }
+}
