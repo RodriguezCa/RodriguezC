@@ -11,13 +11,23 @@
     height: auto;
   }
 
-  .sidebar a (float: left;) a {
+  /*.sidebar a (float: left;) a {
     display: block;
     text-decoration: none;
     padding: 5px;
-  }
+  }*/
+
   a:hover {
     background-color: blue;
     color: white;
+  }
+  input {
+    display: none;
+  }
+  input :checked .sidebar {
+    width: 0px;
+  }
+  input :checked .content {
+    margin-left: 0px;
   }
 }
