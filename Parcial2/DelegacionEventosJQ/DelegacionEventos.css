@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  .contenedor {
+    width: 100vw;
+    height: 100vh;
+    /*background-color: black;*/
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px;
+    justify-content: center;
+    align-content: center;
+    grid-auto-flow: column;
+    justify-items: center;
+  }
+  #caja1{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    margin: 5px;
+    text-align: center;
+    border: 5px solid white;
+  }
+  #caja2{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    margin: 5px;
+    text-align: center;
+    border: 5px solid white;
+  }
+  #caja3{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    margin: 5px;
+    text-align: center;
+    border: 5px solid white;
+  }
+  #caja4{
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    margin: 5px;
+    text-align: center;
+    border: 5px solid white;
+  }
+  #caja5{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin: 5px;
+    text-align: center;
+    border: 5px solid white;
+  }
+  #caja6{
+    width: 100px;
+    height: 100px;
+    background-color: cornflowerblue;
+    margin: 5px;
+    text-align: center;
+    border: 5px solid white;
+  }
+  #caja7{
+    width: 100px;
+    height: 100px;
+    background-color: purple;
+    margin: 5px;
+    text-align: center;
+    border: 5px solid white;
+  }
+  #caja8{
+    width: 100px;
+    height: 100px;
+    background-color: indigo;
+    margin: 5px;
+    text-align: center;
+    border: 5px solid white;
+  }
+  #caja9{
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    margin: 5px;
+    text-align: center;
+    border: 5px solid white;
+  }
