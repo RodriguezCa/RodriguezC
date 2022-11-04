@@ -19,8 +19,13 @@
       <div id="caja8" class="caja"></div>
       <div id="caja9" class="caja"></div>
     </div>
+    <h1>Contador de clicks:</h1>
+    <h1 class="clicks"></h1>
   </body>
   <script>
-    
+    const contenedor = document.querySelector(".contenedor");
+    contenedor.addEventListener("click", (e) => {
+      alert("Hola mundo");
+    });
   </script>
 </html>
