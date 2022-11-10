@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="Mayusculas">
+      <h1 id="Mayusculas">Regresa en MAYUSCULAS</h1>
+      <label for="cadena">Escriba</label>
+      <input id="cadena" type="text" />
+      <button id="btnMayusculas">Procesar</button>
+      <input id="cadMayuscula" type="text" disabled />
+
+      <div class="Longitud">
+        <h2 id="Longitud">Regresa la longitud</h2>
+        <label for="cadena2">Escriba</label>
+        <input id="cadena2" type="text" />
+        <button id="btnLongitud">Procesar</button>
+        <input id="cadLongitud" type="text" disabled />
+      </div>
+      <div class="Cubo">
+        <h3 id="Cubo">Regresa al Cubo</h3>
+        <label for="cadena3">Escriba</label>
+        <input id="cadena3" type="text" />
+        <button id="btnCubo">Procesar</button>
+        <input id="cadCubo" type="text" disabled />
+      </div>
+    </div>
+
+    <script type="module">
+      import * as funciones from "./Modulo.js";
+
+      document
+        .getElementById("btnMayusculas")
+        .addEventListener("click", function () {
+          let varCad = document.getElementById("cadena").value;
+          let varCadMay = funciones.Mayusculas(varCad);
+          document.getElementById("cadMayuscula").value = varCadMay;
+        });
+
+      document
+        .getElementById("btnLongitud")
+        .addEventListener("click", function () {
+          let varCad = document.getElementById("cadena2").value;
+          let varCadLong = funciones.Longitud(varCad);
+          document.getElementById("cadLongitud").value = varCadLong;
+        });
+      document.getElementById("btnCubo").addEventListener("click", function () {
+        let varCad = document.getElementById("cadena3").value;
+        let varCadCube = funciones.Cubo(varCad);
+        document.getElementById("cadCubo").value = varCadCube;
+      });
+    </script>
+  </body>
+</html>
