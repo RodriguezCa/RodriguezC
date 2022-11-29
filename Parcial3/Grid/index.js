@@ -2,7 +2,7 @@ $(document).ready(function () {
   const settings = {
     async: true,
     crossDomain: true,
-    url: "/Grid/datos.php",
+    url: "/datos.php",
     method: "GET",
     headers: {
       Accept: "/",
