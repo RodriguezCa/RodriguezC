@@ -2,7 +2,7 @@ $(document).ready(function () {
   const settings = {
     async: true,
     crossDomain: true,
-    url: "/datos.php",
+    url: "datos.php",
     method: "GET",
     headers: {
       Accept: "/",
@@ -23,30 +23,30 @@ $(document).ready(function () {
       data: tabla,
       fields: [
         {
-          name: "Nombres",
+          name: "Nombre",
           type: "text",
-          width: 50,
+          width: 20,
         },
 
         {
           name: "Apellidos",
           type: "text",
-          width: 50,
+          width: 30,
         },
         {
           name: "RFC",
           type: "text",
-          width: 50,
+          width: 40,
         },
         {
           name: "CURP",
           type: "text",
-          width: 100,
+          width: 50,
         },
         {
           name: "NSS",
           type: "text",
-          width: 50,
+          width: 30,
         },
         {
           name: "EMAIL",
@@ -54,9 +54,9 @@ $(document).ready(function () {
           width: 50,
         },
         {
-          name: "Telefono",
+          name: "TEL",
           type: "text",
-          width: 50,
+          width: 30,
         },
         {
           name: "Direccion",
@@ -66,12 +66,12 @@ $(document).ready(function () {
         {
           name: "Colonia",
           type: "text",
-          width: 50,
+          width: 30,
         },
         {
           name: "Estado Civil",
           type: "text",
-          width: 50,
+          width: 20,
         },
       ],
     });
