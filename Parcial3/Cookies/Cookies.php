@@ -9,16 +9,16 @@
 <body>
     <?php
         if(isset($_COOKIE['ultimavisita'])){
-            printf("Su ultima visita fue: %s", $_COOKIE['ultimavisita']);
+            printf("La ultima visita del usuario fue: %s", $_COOKIE['ultimavisita']);
             $fechaHoy = date('Y/m/d H:i:s');
-            //$time = time()+ (7 * 24 *60 *60);
+            
             setcookie("ultimavisita",$fechaHoy,time()+ (7 * 24 *60 *60));
         }
         else{
 
             printf("No se encontro cookie de ultima visita");
             $fechaHoy = date('Y/m/d H:i:s');
-            //$time = time()+ (7 * 24 *60 *60);
+            
             setcookie("ultimavisita",$fechaHoy,time()+ (7 * 24 *60 *60));
         }
     ?>
