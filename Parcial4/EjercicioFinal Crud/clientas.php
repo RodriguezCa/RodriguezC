@@ -28,20 +28,21 @@ $row = mysqli_fetch_array($query);
             <div class="col-sm-2">
                 <h1>NUEVAS CLIENTAS </h1>
                 <form action="insertar.php" method="POST">
+
                     <input type="text" class="form-control mb-2" name="Nombre" placeholder="Nombre">
                     <input type="text" class="form-control mb-2" name="Producto" placeholder="Producto">
                     <input type="text" class="form-control mb-2" name="Precio" placeholder="Precio">
                     <input type="text" class="form-control mb-2" name="Direccion" placeholder="Direccion">
                     <input type="text" class="form-control mb-2" name="Lugar" placeholder="Lugar">
 
-                    <input type="submit" class="btn btn-primary">
+                    <input type="submit" class="btn btn-success">
                 </form>
             </div>
 
-            <div class="col-lg-8">
+            <div class="col-lg-10">
                 <table class="table">
-                    <thead class="table-sucess table-stripped">
-                        <tr>
+                    <thead class="table-sucess table-stripped table-danger">
+                        <tr class="row-succes row-stripped row-primary">
                             <th>Nombre</th>
                             <th>Producto</th>
                             <th>Precio</th>
@@ -54,8 +55,8 @@ $row = mysqli_fetch_array($query);
 
                     <tbody>
                         <?php
-                while ($row = mysqli_fetch_array($query)) {
-                ?>
+                        while ($row = mysqli_fetch_array($query)) {
+                        ?>
                         <tr>
                             <th>
                                 <?php echo $row['Nombre'] ?>
@@ -73,13 +74,14 @@ $row = mysqli_fetch_array($query);
                                 <?php echo $row['Lugar'] ?>
                             </th>
                             <th> <a href="actualizar.php?id=<?php echo $row['Nombre'] ?>"
-                                    class="btn btn-info">Editar</a></th>
-                            <th> <a href="delete.php?id=<?php echo $row['Nombre'] ?>" class="btn btn-info">Eliminar</a>
+                                    class="btn btn-info btn btn-warning">Editar</a></th>
+                            <th> <a href="delete.php?id=<?php echo $row['Nombre'] ?>"
+                                    class="btn btn-info btn btn-danger">Eliminar</a>
                             </th>
                         </tr>
                         <?php
-                }
-                ?>
+                        }
+                        ?>
 
 
                     </tbody>

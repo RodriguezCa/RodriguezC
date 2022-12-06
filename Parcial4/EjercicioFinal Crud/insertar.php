@@ -1,6 +1,7 @@
 <?php
 
 include("conexion.php");
+
 $con = conectar();
 
 $Nombre = $_POST['Nombre'];
